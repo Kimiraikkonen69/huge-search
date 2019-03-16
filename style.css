@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+html {
+    background: #F1F1F1;
+}
+ul {
+    display: inline-block;
+    width: auto;
+    box-sizing: border-box;
+    margin-top: 50px;
+    margin-left: 50px;
+    vertical-align: top;
+
+}
+input {
+    border: none;
+    outline: none;
+    margin-left: 100px;
+    margin-top: 50px;
+    text-align: left;
+    width: 50%;
+    color: #C2C2C2;
+    font-size: 72px;
+    font-family: Arial sans-serif;
+    font-weight: bold;
+    position: relative;
+    background: #F1F1F1;
+}
+input:focus {
+    color: #b20000;
+}
+h2 {
+    text-align: left;
+    color: #c2c2c2;
+    font-family: Arial-Black sans-serif;
+    margin-left: 100px;
+    vertical-align: top;
+
+}
+ul li {
+    display: block;
+    color: #c2c2c2;
+    font-family: Arial-Black sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    background: #EBEBEC;
+    width: 80%;
+    word-break: normal;
+    margin-bottom: 5px;
+    margin-left: 100px;
+    box-sizing: border-box;
+    height: auto;
+    line-height: 70px;
+    cursor: pointer;
+}
+img {
+    vertical-align: center;
+}
+.first img {
+    border-radius: 50%;
+}
+#knop {
+    width: 80px;
+    height: 80px;
+    margin-left: 250px;
+    display: inline-block;
+    position: relative;
+}
+
+li:hover {
+    background: rgba(118,117,128,0.1);
+    color: #b20000;
+}
+#knop:hover {
+    transform: scale(1.15);
+}
+main {
+    width: 100%;
+}
